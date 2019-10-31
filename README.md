@@ -1,3 +1,3 @@
 # TensorFlow Lite Object Detection Android Demo
 ### Demo
-![resykler.gif](./resykler.gif)
+![Air Writing.gif](./Air Writing.gif)
