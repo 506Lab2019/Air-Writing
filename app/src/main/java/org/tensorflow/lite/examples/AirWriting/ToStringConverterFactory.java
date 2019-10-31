@@ -1,4 +1,4 @@
-package org.tensorflow.lite.examples.ReSyKler;
+package org.tensorflow.lite.examples.AirWriting;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;

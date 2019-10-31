@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package org.tensorflow.lite.examples.ReSyKler.tracking;
+package org.tensorflow.lite.examples.AirWriting.tracking;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -32,10 +32,10 @@ import android.text.TextUtils;
 import android.util.Pair;
 import android.util.TypedValue;
 
-import org.tensorflow.lite.examples.ReSyKler.env.BorderedText;
-import org.tensorflow.lite.examples.ReSyKler.env.ImageUtils;
-import org.tensorflow.lite.examples.ReSyKler.env.Logger;
-import org.tensorflow.lite.examples.ReSyKler.tflite.Classifier.Recognition;
+import org.tensorflow.lite.examples.AirWriting.env.BorderedText;
+import org.tensorflow.lite.examples.AirWriting.env.ImageUtils;
+import org.tensorflow.lite.examples.AirWriting.env.Logger;
+import org.tensorflow.lite.examples.AirWriting.tflite.Classifier.Recognition;
 
 import java.io.BufferedWriter;
 import java.io.File;

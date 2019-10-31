@@ -1,4 +1,4 @@
-package org.tensorflow.lite.examples.ReSyKler;
+package org.tensorflow.lite.examples.AirWriting;
 import com.google.gson.annotations.SerializedName;
 
 public class ImageClass {

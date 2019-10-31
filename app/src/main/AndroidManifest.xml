@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.tensorflow.lite.examples.ReSyKler">
+    package="org.tensorflow.lite.examples.AirWriting">
 
     <uses-sdk />
 
@@ -21,7 +21,7 @@
         >
 
         <activity
-            android:name="org.tensorflow.lite.examples.ReSyKler.DetectorActivity"
+            android:name="org.tensorflow.lite.examples.AirWriting.DetectorActivity"
             android:label="Air Writing"
             android:screenOrientation="reverseLandscape">
             <intent-filter>

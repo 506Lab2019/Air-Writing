@@ -13,10 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package org.tensorflow.lite.examples.ReSyKler.customview;
+package org.tensorflow.lite.examples.AirWriting.customview;
 
 import java.util.List;
-import org.tensorflow.lite.examples.ReSyKler.tflite.Classifier.Recognition;
+import org.tensorflow.lite.examples.AirWriting.tflite.Classifier.Recognition;
 
 public interface ResultsView {
   public void setResults(final List<Recognition> results);

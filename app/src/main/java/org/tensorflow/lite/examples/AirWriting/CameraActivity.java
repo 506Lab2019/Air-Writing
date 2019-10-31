@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.lite.examples.ReSyKler;
+package org.tensorflow.lite.examples.AirWriting;
 
 import android.Manifest;
 import android.app.Fragment;
@@ -58,8 +58,8 @@ import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.tensorflow.lite.examples.ReSyKler.env.ImageUtils;
-import org.tensorflow.lite.examples.ReSyKler.env.Logger;
+import org.tensorflow.lite.examples.AirWriting.env.ImageUtils;
+import org.tensorflow.lite.examples.AirWriting.env.Logger;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
@@ -74,7 +74,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static org.tensorflow.lite.examples.ReSyKler.tracking.MultiBoxTracker.bmap;
+import static org.tensorflow.lite.examples.AirWriting.tracking.MultiBoxTracker.bmap;
 
 //import okhttp3.Response;
 

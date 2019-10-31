@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.lite.examples.ReSyKler;
+package org.tensorflow.lite.examples.AirWriting;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -32,14 +32,14 @@ import android.util.Size;
 import android.util.TypedValue;
 import android.widget.Toast;
 
-import org.tensorflow.lite.examples.ReSyKler.customview.OverlayView;
-import org.tensorflow.lite.examples.ReSyKler.customview.OverlayView.DrawCallback;
-import org.tensorflow.lite.examples.ReSyKler.env.BorderedText;
-import org.tensorflow.lite.examples.ReSyKler.env.ImageUtils;
-import org.tensorflow.lite.examples.ReSyKler.env.Logger;
-import org.tensorflow.lite.examples.ReSyKler.tflite.Classifier;
-import org.tensorflow.lite.examples.ReSyKler.tflite.TFLiteObjectDetectionAPIModel;
-import org.tensorflow.lite.examples.ReSyKler.tracking.MultiBoxTracker;
+import org.tensorflow.lite.examples.AirWriting.customview.OverlayView;
+import org.tensorflow.lite.examples.AirWriting.customview.OverlayView.DrawCallback;
+import org.tensorflow.lite.examples.AirWriting.env.BorderedText;
+import org.tensorflow.lite.examples.AirWriting.env.ImageUtils;
+import org.tensorflow.lite.examples.AirWriting.env.Logger;
+import org.tensorflow.lite.examples.AirWriting.tflite.Classifier;
+import org.tensorflow.lite.examples.AirWriting.tflite.TFLiteObjectDetectionAPIModel;
+import org.tensorflow.lite.examples.AirWriting.tracking.MultiBoxTracker;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -53,7 +53,7 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.tensorflow.lite.examples.ReSyKler.tracking.MultiBoxTracker.bmap;
+import static org.tensorflow.lite.examples.AirWriting.tracking.MultiBoxTracker.bmap;
 
 /**
  * An activity that uses a TensorFlowMultiBoxDetector and ObjectTracker to detect and then track

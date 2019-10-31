@@ -1,4 +1,4 @@
-package org.tensorflow.lite.examples.ReSyKler;
+package org.tensorflow.lite.examples.AirWriting;
 
 import retrofit2.Call;
 import retrofit2.http.POST;

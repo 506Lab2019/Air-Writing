@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.lite.examples.ReSyKler;
+package org.tensorflow.lite.examples.AirWriting;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -53,8 +53,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import org.tensorflow.lite.examples.ReSyKler.customview.AutoFitTextureView;
-import org.tensorflow.lite.examples.ReSyKler.env.Logger;
+import org.tensorflow.lite.examples.AirWriting.customview.AutoFitTextureView;
+import org.tensorflow.lite.examples.AirWriting.env.Logger;
 
 import java.util.ArrayList;
 import java.util.Arrays;

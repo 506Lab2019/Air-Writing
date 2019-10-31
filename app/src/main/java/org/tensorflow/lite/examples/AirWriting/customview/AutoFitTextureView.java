@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.tensorflow.lite.examples.ReSyKler.customview;
+package org.tensorflow.lite.examples.AirWriting.customview;
 
 import android.content.Context;
 import android.util.AttributeSet;
