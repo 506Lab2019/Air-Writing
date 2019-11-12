@@ -28,7 +28,6 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.os.Environment;
 import android.support.v4.content.ContextCompat;
-import android.text.TextUtils;
 import android.util.Pair;
 import android.util.TypedValue;
 
@@ -226,27 +225,17 @@ public class MultiBoxTracker {
                         sensorOrientation,
                         false);
         if (count > 3 && flag) {
-
+            Paint P = new Paint();
+            P.setColor(Color.BLACK);
+            P.setStyle(Style.STROKE);
+            P.setStrokeWidth(45.0f);        //두께 width
+            P.setStrokeCap(Cap.ROUND);
+            P.setStrokeJoin(Join.ROUND);
+            P.setStrokeMiter(100);
             for (final TrackedRecognition recognition : trackedObjects) {
-
                 final RectF trackedPos = new RectF(recognition.location);
-
                 getFrameToCanvasMatrix().mapRect(trackedPos);
                 boxPaint.setColor(recognition.color);
-
-                float cornerSize = Math.min(trackedPos.width(), trackedPos.height()) / 8.0f;
-//                canvas.drawRoundRect(trackedPos, cornerSize, cornerSize, boxPaint);  // Drawing BOXES!
-
-                final String labelString =
-                        !TextUtils.isEmpty(recognition.title)
-                                ? String.format("%s %.2f", recognition.title, (100 * recognition.detectionConfidence))
-                                : String.format("%.2f", (100 * recognition.detectionConfidence));
-                //            borderedText.drawText(canvas, trackedPos.left + cornerSize, trackedPos.top,
-                // labelString);
-//      borderedText.drawText(
-//          canvas, trackedPos.left + cornerSize, trackedPos.top, labelString + "%", boxPaint);
-
-
 
                 if (first) {
                     mPath.moveTo(trackedPos.centerX(), trackedPos.centerY() + 50);
@@ -257,19 +246,8 @@ public class MultiBoxTracker {
                 canvas.drawPath(mPath, boxPaint);
                 bmap = Bitmap.createBitmap(canvas.getWidth(), canvas.getHeight(), Bitmap.Config.ARGB_8888);
                 Canvas C = new Canvas(bmap);
-                Paint P = new Paint();
                 C.drawColor(Color.WHITE);
-                P.setColor(Color.BLACK);
-//                P.setAlpha(200);
-                P.setStyle(Style.STROKE);
-                P.setStrokeWidth(45.0f);        //두께 width
-                P.setStrokeCap(Cap.ROUND);
-                P.setStrokeJoin(Join.ROUND);
-                P.setStrokeMiter(100);
                 C.drawPath(mPath, P);
-                lastX = trackedPos.centerX();
-                lastY = trackedPos.centerY();
-                break;
             }
         }
 
