@@ -1,3 +1,7 @@
 # TensorFlow Lite Object Detection Android Demo
 ### Demo
-![AirWriting.gif](./AirWriting.gif)
+![AirWriting.gif](images/AirWriting.gif)
+
+![Apple_analyze of relevance](images/analyze_2.png)
+
+![Apple_analyze of invariance](images/analyze_1.png)
