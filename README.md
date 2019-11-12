@@ -2,4 +2,6 @@
 ### Demo
 ![AirWriting.gif](images/AirWriting.gif)
 
-![Apple_analyze](images/Apple_analyze.png)
+![Apple_analyze of relevance](images/analyze_2.png)
+
+![Apple_analyze of invariance](images/analyze_1.png)
