@@ -5,6 +5,4 @@
 
 
 ### Air Writing analyze of example word 'Apple'
-<img src="images/analyze_relevance.png" width="80%" height="80%">
-
-<img src="images/analyze_invariance.PNG" width="50%" height="50%">
+<img src="images/Apple_analyze.png" width="90%" height="90%">
