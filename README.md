@@ -1,4 +1,4 @@
-# :writing_hand:Air Writing Demo
+# :writing_hand: Air Writing :writing_hand:
 ### Demo
 ![AirWriting.gif](./images/AirWriting.gif)
 
